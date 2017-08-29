@@ -62,6 +62,21 @@
   find Charlie Betsy
 
 ##########################################################
+# test finde persons command
+##########################################################
+
+  # should match none with no keywords
+  finde
+  # should only match full words in email postfix names
+  finde nu
+  # does not match if none have keyword
+  finde 23912039120
+  # matching should be not case-sensitive
+  finde nus.edu.sg
+  # matching should be not case-sensitive
+  finde NUS.EDU.SG
+
+##########################################################
 # test delete person command
 ##########################################################
 
