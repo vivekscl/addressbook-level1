@@ -93,6 +93,18 @@ Examples:
    
 * `find Betsy Tim John`
   > Returns Any person having names `Betsy`, `Tim`, or `John`
+  
+#### Finding a person by email postfix `finde`
+> Finds persons that match given one keyword
+
+Format: `finde KEYWORD`  
+> The search is not case sensitive, only the email postfix is searched, 
+and persons matching the keyword will be returned.
+
+Examples: 
+* `find nus.edu.sg`
+  > Returns `Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg` and so does `NUS.EDU.SG`
+   
 
 #### Deleting a person: `delete`
 
